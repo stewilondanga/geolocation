@@ -1,5 +1,9 @@
 /** NOTE: uses jQuery for quick & easy DOM manipulation **/
 
+function getLocation(){
+  var msg;
+
+	
 
 var navigate = (function() {
 	$('.dd').toggle();
