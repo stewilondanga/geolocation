@@ -25,7 +25,16 @@ function getLocation(){
 	 a success callback (required), an error callback  (optional), and a set of options (optional)
 	 **/
 
-	 
+	 var options = {
+	 // enableHighAccuracy = should the device take extra time or power to return a really accurate result, or should it give you the quick (but less accurate) answer?
+	 enableHighAccuracy: false,
+	 // timeout = how long does the device have, in milliseconds to return a result?
+	 timeout: 5000,
+	 // maximumAge = maximum age for a possible previously-cached position. 0 = must return the current position, not a prior cached position
+	 maximumAge: 0
+ };
+
+ 
 
 var navigate = (function() {
 	$('.dd').toggle();
