@@ -48,7 +48,16 @@ function getLocation(){
       $('.pure-button').removeClass('pure-button-primary').addClass('pure-button-success'); // change button style
     }
 
-		
+		// upon error, do this
+ function error(err){
+	 // return the error message
+	 msg = 'Error: ' + err + ' :(';
+	 outputResult(msg); // output button
+	 $('.pure-button').removeClass('pure-button-primary').addClass('pure-button-error'); // change button style
+ }
+} // end requestLocation();
+
+
 
 var navigate = (function() {
 	$('.dd').toggle();
