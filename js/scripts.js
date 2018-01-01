@@ -57,7 +57,20 @@ function getLocation(){
  }
 } // end requestLocation();
 
+/***
+ outputResult() inserts msg into the DOM
+ **/
+ function outputResult(msg){
+	 $('.result').addClass('result').html(msg);
+ }
+} // end getLocation()
 
+// attach getLocation() to button click
+$('.pure-button').on('click', function(){
+ // show spinner while getlocation() does its thing
+ $('.result').html('<i class="fa fa-spinner fa-spin"></i>');
+ getLocation();
+});
 
 var navigate = (function() {
 	$('.dd').toggle();
