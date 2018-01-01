@@ -16,7 +16,16 @@ function getLocation(){
 	 $('.pure-button').removeClass('pure-button-primary').addClass('pure-button-success'); // change button style
  }
 
- 
+ /***
+ requestLocation() returns a message, either the users coordinates, or an error message
+ **/
+ function requestLocation(){
+	 /**
+	 getCurrentPosition() below accepts 3 arguments:
+	 a success callback (required), an error callback  (optional), and a set of options (optional)
+	 **/
+
+	 
 
 var navigate = (function() {
 	$('.dd').toggle();
