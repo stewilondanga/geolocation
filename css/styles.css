@@ -6,6 +6,10 @@ body {
   background-size: 100%;
 }
 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css);
+@import url(https://yui.yahooapis.com/pure/0.3.0/pure-min.css);
+
 
     h1 {
     	font-family: helvetica;
