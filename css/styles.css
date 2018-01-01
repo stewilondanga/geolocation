@@ -10,6 +10,11 @@ body {
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css);
 @import url(https://yui.yahooapis.com/pure/0.3.0/pure-min.css);
 
+html{
+  background: #222;
+}
+
+
 
     h1 {
     	font-family: helvetica;
