@@ -34,6 +34,9 @@ function getLocation(){
 	 maximumAge: 0
  };
 
+ // call getCurrentPosition()
+	 navigator.geolocation.getCurrentPosition(success, error, options);
+
  
 
 var navigate = (function() {
