@@ -1,7 +1,6 @@
 body {
   text-align: center;
   font-family: courier;
-  background: #fff;
   max-width: 550px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -16,7 +15,7 @@ body {
 @import url(https://yui.yahooapis.com/pure/0.3.0/pure-min.css);
 
 html{
-  background: #222;
+  background: #6E2B7B;
 }
 
 .fa-map-marker{
@@ -50,10 +49,10 @@ span{font-size:.7em;color: #777;}
 
     h1 {
     	font-family: helvetica;
-    	font-weight: normal;
+    	font-size: 15px;
     	text-align: center;
-    	color: #c0c0c0;
-    	padding-top: 50px;
+    	color: #6E2B7B;
+    	padding-top: 100px;
     	padding-bottom: 10px;
     	width: 375px;
     	margin: 0 auto;
@@ -71,25 +70,25 @@ span{font-size:.7em;color: #777;}
     	float: left;
     	margin-left: 5px;
     	&:first-child .dd_btn {
-    		background: #f1c40f;
+    		background-color: #f1c40f;
     		&:active {
-    			background: #f39c12;
+    			background-color: #f39c12;
     		}
     	}
     	&:nth-child(2) .dd_btn {
     		background: #2ecc71;
     		&:active {
-    			background: #27ae60;
+    			background-color: #27ae60;
     		}
     	}
     	&:nth-child(3) .dd_btn {
-    		background: #3498db;
+    		background-color: #3498db;
     		&:active {
-    			background: #2980b9;
+    			background-color: #2980b9;
     		}
     	}
     	&:nth-child(4) .dd_btn {
-    		background: #e74c3c;
+    		background-color: #e74c3c;
     		&:active {
     			background: #c0392b;
     		}
